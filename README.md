@@ -6,8 +6,7 @@ Open skills that improve the reliability of interaction with LLM agents.
 People using CLI agents like Codex, Claude Code, or any LLM agent that supports the open skills format.
 ## Skills
 
-- `verify-third-party-sources` - Verification workflow for checking third-party libraries, SDKs, CLIs, frameworks, APIs, services, and external tools before relying on their behavior.
-## Getting started
+- `verify-third-party-sources` - when interacting with third-party tools, the skill forces the agent to first identify their version and then use it to verify information according to a defined source priority. This helps the agent rely less on model memory and use more reliable, up-to-date data.
 
 Install skills with your agent's installer and a GitHub URL:
 - https://agentskills.io/integrate-skills
