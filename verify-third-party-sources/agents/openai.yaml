@@ -1,0 +1,4 @@
+interface:
+  display_name: "Verify Third-Party Sources"
+  short_description: "Check library source and versioned docs"
+  default_prompt: "Use $verify-third-party-sources when working with a third-party library, SDK, CLI, service, or external tool."
